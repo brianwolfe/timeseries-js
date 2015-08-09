@@ -1,0 +1,8 @@
+A javascript library for dealing with timeseries data, in particular for preparing
+it for plotting.
+
+Defines helpers for plotting timeseries, in particular for moderately large datasets
+of several million points. It includes basic utilities to automatically subsample
+the timeseries data based on the number of points in a given window. It typically
+deals with typed arrays internally to allow javascript engines to optimize
+execution.
