@@ -177,6 +177,7 @@ TimeSeries.BasicSeries.prototype.getValues = function(lowtime, hightime, maxpoin
       num = 0,
       res = [];
 
+  // TODO: clean up this loop.
   for (var i = start_ind; i <= end_ind; i++) {
     if (cur_time + interval < this.time[i]) {
       var std = new Float64Array(this.width);

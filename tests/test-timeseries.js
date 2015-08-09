@@ -122,7 +122,5 @@ describe("Test SubsampleSeries", function() {
 
     expect(samples[0].max, max);
     expect(samples[0].min, min);
-
-    console.log(samples);
   });
 });
