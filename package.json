@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Wolfe",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:brianwolfe/timeseries-js.git"
 }
